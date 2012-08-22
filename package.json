@@ -6,7 +6,7 @@
   "dependencies": {
     "konphyg": ">= 1.0.5"
   },
-  "keywords": ["stats", "statistics", "mediatemple", "mt"],
+  "keywords": ["stats", "statistics", "mediatemple", "mt", "json"],
   "repository": {
     "type": "git",
     "url": "git://github.com/meloncholy/mt-stats.git"
