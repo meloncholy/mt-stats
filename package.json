@@ -1,0 +1,15 @@
+{
+  "name": "mt-stats",
+  "description": "A little library to access your MediaTemple server's stats.",
+  "version": "0.0.1",
+  "author": "Andrew Weeks <andrew@meloncholy.com>",
+  "dependencies": {
+    "konphyg": ">= 1.0.5"
+  },
+  "keywords": ["stats", "statistics", "mediatemple", "mt"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/meloncholy/mt-stats.git"
+  },
+  "main": "index"
+}

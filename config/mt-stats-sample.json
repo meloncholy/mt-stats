@@ -1,0 +1,30 @@
+{
+	"serviceId": 000000,
+	"apiKey": "XXXXXXXX",
+	"mode": "production",
+	"rootPath": "/api/",
+	"interval": 15000,
+	"ranges": [
+		{ "range": 3600, "resolution": 15, "step": 3600 },
+		{ "range": 43200, "resolution": 120, "step": 28800 },
+		{ "range": 86400, "resolution": 240, "step": 57600 },
+		{ "range": 604800, "resolution": 1800, "step": 432000 }
+	],
+	"metrics": [
+		{ "apiKey": "cpu", "niceName": "CPU %" },
+		{ "apiKey": "memory", "niceName": "Memory %" },
+		{ "apiKey": "load1Min", "niceName": "Load 1 min" },
+		{ "apiKey": "load5Min", "niceName": "Load 5 min" },
+		{ "apiKey": "load15Min", "niceName": "Load 15 min" },
+		{ "apiKey": "processes", "niceName": "Processes" },
+		{ "apiKey": "diskSpace", "niceName": "Disk space" },
+		{ "apiKey": "kbytesIn", "niceName": "kb in / sec" },
+		{ "apiKey": "kbytesOut", "niceName": "kb out / sec" },
+		{ "apiKey": "packetsIn", "niceName": "Packets in / sec" },
+		{ "apiKey": "packetsOut", "niceName": "Packets out / sec" }
+	],
+	"definedRanges": ["5min", "15min", "30min", "1hour", "1day", "1week", "1month", "3month", "1year"],
+	"currentUrl": "https://api.mediatemple.net/api/v1/stats/%SERVICEID.json?apikey=%APIKEY",
+	"historyUrl": "https://api.mediatemple.net/api/v1/stats/%SERVICEID/%RANGE.json?apikey=%APIKEY",
+	"rangeUrl": "https://api.mediatemple.net/api/v1/stats/%SERVICEID.json?start=%START&end=%END&&resolution=%RESOLUTION&apikey=%APIKEY"
+}
