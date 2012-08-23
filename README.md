@@ -1,9 +1,9 @@
 (mt) Stats
 ==========
 
-(mt) Stats is a specialised proxy server that gets your server's statistics from [MediaTemple's API servers](http://mediatemple.net/api/). It was designed to be used with the [(mt) Stats Viewer](https://github.com/meloncholy/mt-stats-viewer) front end, but may even be more generally useful. 
+(mt) Stats is a specialised proxy server that gets your server's statistics from [MediaTemple's API servers](http://mediatemple.net/api/). It was designed to be used with the [(mt) Stats Viewer](https://github.com/meloncholy/mt-stats-viewer) front end, but it may even be useful elsewhere too. 
 
-If you want to read more about how it works and some potential problems, there's a surprisingly (to me, at least) long post [here](http://meloncholy.com/blog/using-d3-for-realtime-webserver-stats).
+If you want to read more about how it works and some potential problems, there's a surprisingly (surprising to me, at least) long post [here](http://meloncholy.com/blog/using-d3-for-realtime-webserver-stats).
 
 
 Setting up (mt) Stats
